@@ -3,12 +3,11 @@
 - type: github
   icon: "fab fa-github"
 
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
+- icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
+  url:  'https://www.linkedin.com/in/ian-gabriel-eusebio/' # Fill with your Linkedin homepage
 
-- type: email
-  icon: "fas fa-envelope"
-  noblank: true # open link in current tab
+- icon: "fas fa-youtube"
+  url: 'https://www.youtube.com/@ianiangg'
 
 - type: rss
   icon: "fas fa-rss"

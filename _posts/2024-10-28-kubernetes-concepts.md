@@ -1,5 +1,5 @@
 ---
-title: Trying to figure out Kubernetes
+title: Kubernetes Concepts
 date: 2024-10-28
 categories: [Blogging, Technical]
 tags: [kubernetes, notes]     # TAG names should always be lowercase

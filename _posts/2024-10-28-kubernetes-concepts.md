@@ -18,4 +18,4 @@ First blog post! Thank you to my mentor Slava for encouraging me to start this b
 + **linux networking basics** - required for learning Kubernetes due to communication between pods, containers, services, external destinations, etc.
     + networking topics to learn - OSI layers, protocols, IP, DNS, Gateways, routes, TLS, CNI.
     + [4-hour Networking Video](https://www.youtube.com/watch?v=IPvYjXCsTg8)
-+ **kubectl** - terminal for managing Kubernetes cluster.
++ **kubectl** - terminal for managing Kubernetes clusters.

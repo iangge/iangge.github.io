@@ -5,4 +5,4 @@ categories: [Blogging, Personal]
 tags: [college, education]     # TAG names should always be lowercase
 ---
 
-DRAFT 
+I scheduled an appointment with my career counselor. She gave me some good resources and advice on whether or not I should minor in Sociology.

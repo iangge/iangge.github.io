@@ -1,6 +1,6 @@
 ---
 title: Setting up a Basic Nginx Web Server on Windows
-date: 2024-11-2 # Enter date here and in file name
+date: 2024-11-3 # Enter date here and in file name
 categories: [Technology, Tutorial]
 tags: [nginx, windows]    # TAG names should always be lowercase
 ---
@@ -46,4 +46,21 @@ Then go to the html folder, right click the index.html file, and edit it in Note
 
 ![index-html-nginx.png](https://i.postimg.cc/mZ6L7LGG/index-html-nginx.png)
 
-index.html is typically the name for the website's homepage.
+index.html is typically the name for a website's homepage. Here's what it'll look like after we edit the html code:
+
+![nginx-edited-html-code.png](https://i.postimg.cc/TYmcYBfK/nginx-edited-html-code.png)
+
+## 6. Accessing the web server from different computers on the same network
+
+We can also acccess the website from different computers on the same network by putting the host computer's IP address into the other computer's browser: [Tutorial link for finding your computer's IP address on Windows](https://support.microsoft.com/en-us/windows/find-your-ip-address-in-windows-f21a9bbc-c582-55cd-35e0-73431160a1b9). Here is me accessing the web server on a Kali Linux virtual machine:
+
+![nginx-on-vm.png](https://i.postimg.cc/4xxdR4qs/nginx-on-vm.png)
+
+## Conclusion and Next Steps
+
+Now that we've set up a basic nginx web server on a local network, we can use it for testing websites before deploying them to live servers. 
+
+Ideas for future projects:
+* Setting up an nginx web server on linux.
+* Enabling port forwarding on a router to make the website publicly accessible.
+* Hosting a website nginx on a cloud platform

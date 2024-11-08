@@ -21,8 +21,6 @@ For simplicity's sake, I unzipped the file and placed it onto my desktop.
 
 Double-click nginx.exe. It should now be running in the background and show up on task manager. (You may need to adjust firewall settings) 
 
-![Windows-protected-your-PC-against-nginxpng.png](https://postimg.cc/kVBfDfwj)
-
 ![Screenshot-2024-11-04-150320.png](https://i.postimg.cc/zBrzW4rZ/Screenshot-2024-11-04-150320.png)
 
 ## 4. Go to localhost in a web browser

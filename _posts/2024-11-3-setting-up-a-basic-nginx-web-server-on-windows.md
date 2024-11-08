@@ -21,8 +21,7 @@ For simplicity's sake, I unzipped the file and placed it onto my desktop.
 
 Double-click nginx.exe. It should now be running in the background and show up on task manager. (You may need to adjust firewall settings) 
 
-<!-- Ooooo html works in markdown too. Yay! -->
-<img src="https://i.postimg.cc/TPcS7sbX/Windows-protected-your-PC-against-nginxpng.png"> 
+![Windows-protected-your-PC-against-nginxpng.png](https://postimg.cc/kVBfDfwj)
 
 ![Screenshot-2024-11-04-150320.png](https://i.postimg.cc/zBrzW4rZ/Screenshot-2024-11-04-150320.png)
 
@@ -42,11 +41,7 @@ Go to the nginx directory:
 
 ![nginx-file-directory.png](https://i.postimg.cc/6QM4CVQW/nginx-file-directory.png)
 
-<<<<<<< HEAD
 Then go to the html folder, right click the index.html file, and edit it in Notepad. Using basic html, I edited the file to have it say, "Hello, I have edited the html code."
-=======
-Then go to the html folder, right click the index.html file, and edit it in Notepad. Using basic html, I edited the file to have it say, "Hello this is a website."
->>>>>>> e07ac61b1b4390e992973e8fd1daf04a48483018
 
 ![index-html-nginx.png](https://i.postimg.cc/mZ6L7LGG/index-html-nginx.png)
 
@@ -60,21 +55,11 @@ We can also acccess the website from different computers on the same network by 
 
 ![nginx-on-vm.png](https://i.postimg.cc/4xxdR4qs/nginx-on-vm.png)
 
-<<<<<<< HEAD
 ## Conclusion and Future Steps
 
 Now that we've set up a basic static nginx web server on a local network, we can use it for testing websites before deploying them to live servers. 
-=======
-## Conclusion and Next Steps
-
-Now that we've set up a basic nginx web server on a local network, we can use it for testing websites before deploying them to live servers. 
->>>>>>> e07ac61b1b4390e992973e8fd1daf04a48483018
 
 Ideas for future projects:
 * Setting up an nginx web server on linux.
 * Enabling port forwarding on a router to make the website publicly accessible.
-<<<<<<< HEAD
 * Hosting a website using nginx on a cloud platform
-=======
-* Hosting a website nginx on a cloud platform
->>>>>>> e07ac61b1b4390e992973e8fd1daf04a48483018

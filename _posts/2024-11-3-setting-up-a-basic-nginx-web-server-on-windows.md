@@ -42,7 +42,7 @@ Go to the nginx directory:
 
 ![nginx-file-directory.png](https://i.postimg.cc/6QM4CVQW/nginx-file-directory.png)
 
-Then go to the html folder, right click the index.html file, and edit it in Notepad. Using basic html, I edited the file to have it say, "Hello this is a website."
+Then go to the html folder, right click the index.html file, and edit it in Notepad. Using basic html, I edited the file to have it say, "Hello, I have edited the html code."
 
 ![index-html-nginx.png](https://i.postimg.cc/mZ6L7LGG/index-html-nginx.png)
 
@@ -56,11 +56,11 @@ We can also acccess the website from different computers on the same network by 
 
 ![nginx-on-vm.png](https://i.postimg.cc/4xxdR4qs/nginx-on-vm.png)
 
-## Conclusion and Next Steps
+## Conclusion and Future Steps
 
-Now that we've set up a basic nginx web server on a local network, we can use it for testing websites before deploying them to live servers. 
+Now that we've set up a basic static nginx web server on a local network, we can use it for testing websites before deploying them to live servers. 
 
 Ideas for future projects:
 * Setting up an nginx web server on linux.
 * Enabling port forwarding on a router to make the website publicly accessible.
-* Hosting a website nginx on a cloud platform
+* Hosting a website using nginx on a cloud platform

@@ -6,3 +6,5 @@ tags: [college, education]     # TAG names should always be lowercase
 ---
 
 DRAFT 
+
+TO DO: Learn basic networking and Linux to be able to setup GKE

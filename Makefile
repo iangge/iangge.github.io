@@ -13,11 +13,10 @@ local-drafts:
 FILENAME:=./_drafts/$(shell date +'%Y-%m-%d')-.md
 define post
 ---
-title: ''
-date: $(shell date +'%Y-%m-%d') 00:00:00
+title: '' # Insert title, categories, and tags + add title to filename
+date: $(shell TZ="America/Los_Angeles" date +'%Y-%m-%d %H:%M:%S')
 categories: []
-tags: []
-layout: post
+tags: []  # tag names should always be lowercase
 ---
 endef
 export post

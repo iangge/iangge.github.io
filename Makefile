@@ -15,7 +15,8 @@ define post
 ---
 title: ''
 date: $(shell date +'%Y-%m-%d') 00:00:00
-tags:
+categories: []
+tags: []
 layout: post
 ---
 endef

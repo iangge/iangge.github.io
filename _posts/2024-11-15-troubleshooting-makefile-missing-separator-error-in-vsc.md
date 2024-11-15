@@ -24,7 +24,11 @@ local:
 
 ### Troubleshooting Missing Separator Error
 
+<<<<<<< HEAD
 However, whenever I tried running `make local` in Visual Studio Code, I ran into an error that said "missing separator":
+=======
+However, whenever I tried running `make local` in Visual Studio Code, I ran into an error that said missing separator:
+>>>>>>> e28fbf665ca0a1f37b92a4eb0d15bc6db30dd69f
 [![Makefile-Missing-Separator.png](https://i.postimg.cc/XNzdB10N/Makefile-Missing-Separator.png)](https://postimg.cc/hhVfHrjN)
 
 I started looking up solutions, and a [Stackoverflow](https://stackoverflow.com/a/16945143) poster linked the GNU make utility documentation that stated, ["a tab character needs to be at the beginning of every recipe line"](https://www.gnu.org/software/make/manual/make.html#Rule-Introduction).
@@ -54,7 +58,11 @@ After using `cat -A Makefile`, this was my output:
 local:$
 	bundle exec jekyll serve$
 ```
+<<<<<<< HEAD
 Despite using the tab button to indent the 2nd line, there was no `^I` before `bundle`. That meant that my IDE (Visual Studio Code) was using spaces to indent. I used this YouTube video to learn how to convert indentation to tabs in VSC:
+=======
+Despite using the tab button to indent the 2nd line, there was no `^I` before `bundle`. That meant that my IDE (Visual Studio Code) was using spaces to indent. I used this YouTube video learn how to convert indentation to tabs in VSC:
+>>>>>>> e28fbf665ca0a1f37b92a4eb0d15bc6db30dd69f
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MOdWPA07bMU?si=QwIfjJ2ikzwejWR_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 After changing that option in Visual Studio Code and putting the tab characters into the Makefile, this was my new output for `cat -A Makefile`:

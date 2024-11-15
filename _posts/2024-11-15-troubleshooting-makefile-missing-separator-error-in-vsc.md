@@ -24,11 +24,7 @@ local:
 
 ### Troubleshooting Missing Separator Error
 
-<<<<<<< HEAD
-However, whenever I tried running `make local` in Visual Studio Code, I ran into an error that said "missing separator":
-=======
 However, whenever I tried running `make local` in Visual Studio Code, I ran into an error that said missing separator:
->>>>>>> e28fbf665ca0a1f37b92a4eb0d15bc6db30dd69f
 [![Makefile-Missing-Separator.png](https://i.postimg.cc/XNzdB10N/Makefile-Missing-Separator.png)](https://postimg.cc/hhVfHrjN)
 
 I started looking up solutions, and a [Stackoverflow](https://stackoverflow.com/a/16945143) poster linked the GNU make utility documentation that stated, ["a tab character needs to be at the beginning of every recipe line"](https://www.gnu.org/software/make/manual/make.html#Rule-Introduction).

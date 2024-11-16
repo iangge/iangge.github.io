@@ -59,8 +59,8 @@ Despite using the tab button to indent the 2nd line, there was no `^I` before `b
 
 After changing that option in Visual Studio Code and putting the tab characters into the Makefile, this was my new output for `cat -A Makefile`:
 ```
-local-drafts:$
-^Ibundle exec jekyll serve --drafts$
+local:$
+^Ibundle exec jekyll serve$
 ```
 
 The `^I` was there, which got rid of the missing separator error! This now allows me to use my Makefile for storing commands.

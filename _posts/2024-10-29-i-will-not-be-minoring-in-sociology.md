@@ -13,7 +13,7 @@ She mentioned that she knew an alumnus who also majored in Computer Information 
 
 * Sociology is very interesting to me. I like how there’s a lot of overlap with psychology and how it focuses on larger scale societal issues.
 * It’s something I care about. I believe that if we better understand the underlying root of social issues, then we can work to fix them.
-* Would connect me more with like-minded people
+* Would connect me more with like-minded people.
 * Would be an interesting complement to my major in Computer Information Systems. 
   * The overlap between technology and Sociology is really cool with like computational Sociology, human factors in cybersecurity, human-centered computing, and tech advocacy and policy.
 

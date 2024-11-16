@@ -54,11 +54,7 @@ After using `cat -A Makefile`, this was my output:
 local:$
 	bundle exec jekyll serve$
 ```
-<<<<<<< HEAD
 Despite using the tab button to indent the 2nd line, there was no `^I` before `bundle`. That meant that my IDE (Visual Studio Code) was using spaces to indent. I used this YouTube video to learn how to convert indentation to tabs in VSC:
-=======
-Despite using the tab button to indent the 2nd line, there was no `^I` before `bundle`. That meant that my IDE (Visual Studio Code) was using spaces to indent. I used this YouTube video learn how to convert indentation to tabs in VSC:
->>>>>>> e28fbf665ca0a1f37b92a4eb0d15bc6db30dd69f
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MOdWPA07bMU?si=QwIfjJ2ikzwejWR_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 After changing that option in Visual Studio Code and putting the tab characters into the Makefile, this was my new output for `cat -A Makefile`:

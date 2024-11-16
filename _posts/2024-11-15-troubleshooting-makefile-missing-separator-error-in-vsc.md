@@ -16,7 +16,7 @@ Makefiles can also be used for storing common commands. For example, I made one 
 bundle exec jekyll serve
 ```
 
-Now with this code in my Makefile, I can simply run `make local` to test this website:
+Now with the code below in my Makefile, I can simply run `make local` to test this website instead of typing out `bundle exec jekyll serve` every time. This works somewhat similar to how [aliases in bash](https://linuxize.com/post/how-to-create-bash-aliases/) work.
 ```make
 local:
 	bundle exec jekyll serve

@@ -71,3 +71,4 @@ RUN rbenv install ${RUBY_VERSION} \
 RUN gem install jekyll -v '3.9.3'
 RUN bundle install
 RUN bundle update
+

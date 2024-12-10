@@ -10,7 +10,7 @@ local-drafts:
 
 # Tutorial - Makefile rule for Jekyll drafts:
 # https://blog.gnclmorais.com/makefile-rule-for-jekyll-drafts
-FILENAME:=./_drafts/$(shell date +'%Y-%m-%d')-.md
+FILENAME:=./_drafts/$(shell TZ="America/Los_Angeles" date +'%Y-%m-%d')-.md
 define post
 ---
 title: '' # Insert title, categories, and tags + add title to filename

@@ -1,5 +1,5 @@
 ---
-title: 'Port forwarding WSL2 to Windows Box' # Insert title, categories, and tags + add title to filename
+title: 'Port forwarding Windows machine to WSL2' # Insert title, categories, and tags + add title to filename
 date: 2024-12-09 21:33:18
 categories: [Technology, Networking]
 tags: [networking, wsl2]  # tag names should always be lowercase

@@ -1,5 +1,5 @@
 ---
-title: 'Port forwarding Windows machine to WSL2'
+title: 'Port forwarding Between Windows and WSL2'
 date: 2024-12-09 21:33:18
 categories: [Technology, Networking]
 tags: [networking, wsl2] 
@@ -33,7 +33,7 @@ netsh interface portproxy add v4tov4 listenport=<yourPortToForward> listenaddres
 * `netsh interface portproxy add v4tov4` - creates a new port forwarding rule for listening and forwarding between two IPv4 addresses.
 * `listenport=<yourPortToForward>` - specifies which port on the local machine that will listen for incoming connections.
 * `listenaddress=0.0.0.0` - tells the system which IP address to listen for.
-  * `0.0.0.0` - a wild card IP address that allows the proxy to accept connections from any network interface on the host machine. 
+  * `0.0.0.0` - a wild card IP address that allows the proxy to accept connections from any network interface *on the Windows host machine*. 
   * Since the service I was hosting is only available locally, external devices can only access it if they are on the same local network as the host machine.
 * `connectport=<yourPortToConnectToInWSL>` - port that traffic will be forwarded to on the destination machine. In this case, its the WSL2 virtual machine. 
 * `connectaddress=<wsl2IPAddress>` - IP address of the destination machine.
@@ -43,7 +43,9 @@ netsh interface portproxy add v4tov4 listenport=<yourPortToForward> listenaddres
 ``` powershell
 netsh interface portproxy add v4tov4 listenport=3000 listenaddress=0.0.0.0 connectport=3000 connectaddress=172.17.110.111
 ```
-In short, this allows any connection (`listenaddress=0.0.0.0`) received on port 3000 (`listenport=3000`) to be forwarded to the IP address `172.17.110.111` on the same port (`connectport=3000`). 
+In short, this allows any connection on the host machine's IP address (`listenaddress=0.0.0.0`) received on port 3000 (`listenport=3000`) to be forwarded to the IP address `172.17.110.111` on the same port (`connectport=3000`). 
+
+For example, if the host machine's private IP address is `192.168.254.11`, connecting to `192.168.254.11:3000` on an external device would forward that port to the web service hosted on `172.17.110.11:3000` inside of WSL2. 
 
 With this command, it achieves our goal of having the WSL2 service on port 3000 be reachable from outside the WSL2 virtual machine.
 
@@ -57,6 +59,12 @@ netsh interface portproxy show v4tov4
 | :-------------- | :--- | :--------------- | :--- |
 | Address         | Port | Address          | Port |
 | 0.0.0.0         | 3000 | 172.17.110.11    | 3000 |
+
+I created a diagram to illustrate the points above so we can visualize how the port forwarding works. 
+
+### Diagram
+
+![WSL2-Port-Forwarding-Diagram.png](https://i.postimg.cc/Znf8Dkzr/WSL2-Port-Forwarding-Diagram.png)
 
 ## Automating WSL2 Firewall Rules and Port Forwarding
 
@@ -104,17 +112,27 @@ for( $i = 0; $i -lt $ports.length; $i++ ){
 ```
 ## Alternative Solution - Mirrored Mode
 
+Another solution to making WSL2 servers accessible from your local network is to create a [.wslconfig file](https://learn.microsoft.com/en-us/windows/wsl/wsl-config#wslconfig) and set `networkingMode=mirrored`.
+
+This mode replaces the defaulty NAT setting by having all Windows network interfaces *mirrored* onto the Linux distributions in WSL2. Network services between Windows and WSL2 can now be accessed seamlessly without setting up port forwarding.
+
+However, I set up port forwarding so I could familiarize myself with the concept. Through either port forwarding or using mirrored mode, my self-hosted services in WSL2 are made available to my local network.
 
 ## Glossary
 * **WSL2** - Windows Subsystem for Linux 2, a tool that allows Windows users to "run Linux distributions as isolated containers inside a lightweight virtual machine" ([Microsoft Learn](https://learn.microsoft.com/en-us/windows/wsl/about))
 * **port** - a number that identifies a specific process or a type of network service (e.g. Port 80 for requesting web pages from a web server). This number is used to direct data to a specific service ([Wikipedia](https://en.wikipedia.org/wiki/Port_(computer_networking)#:~:text=In%20computer%20networking%2C%20a%20port,a%20type%20of%20network%20service.))
 * **port forwarding** - a network configuration setting that allows external devices to access specific services on a private network by directing incoming traffic on a particular port number to a specific device within that network
+*  **network interface** - the point of interconnection between a computer and a private or public network ([Oracle](https://docs.oracle.com/javase/tutorial/networking/nifs/definition.html#:~:text=A%20network%20interface%20is%20the,can%20be%20implemented%20in%20software.)).
+   *  Can be hardware (network cards) or software (virtual machines)
+   *  Each network interface has its own unique IP address
 
 ## Sources
 * [Microsoft Learn - Accessing network applications with WSL](https://learn.microsoft.com/en-us/windows/wsl/networking)
 * [YouTube - WSL2 Networking by David Bombal](https://www.youtube.com/watch?v=yCK3easuYm4&ab_channel=DavidBombal)
 * [Github - WSL2 NIC Bridge mode 🖧 Has TCP Workaround🔨](https://github.com/microsoft/WSL/issues/4150)
 * [jwstanley - Port Forwarding WSL2 to Your LAN](https://jwstanly.com/blog/article/Port+Forwarding+WSL+2+to+Your+LAN/)
+* [YouTube - How does mirrored mode work in WSL?](https://www.youtube.com/watch?v=bvW_2rXCOQw&ab_channel=MicrosoftDeveloper)
+* [YouTube - Advanced setting configuration in WSL](https://www.youtube.com/watch?v=dKBU5gWnBvc&ab_channel=WolfDynamicsWorld-WDW)
 
 ## Additional Considerations
 * [Editing wsl2config networking to be in mirrored mode](https://learn.microsoft.com/en-us/windows/wsl/wsl-config#main-wsl-settings)

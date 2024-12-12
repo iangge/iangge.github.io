@@ -49,6 +49,9 @@ For example, if the host machine's private IP address is `192.168.254.11`, conne
 
 With this command, it achieves our goal of having the WSL2 service on port 3000 be reachable from outside the WSL2 virtual machine.
 
+> Keep in mind that this only makes the WSL2 service open to external devices that are on the *same* local network, not the entire internet. 
+{: .prompt-info }
+
 ### Powershell command to see all forwarded ports:
 ``` powershell
 netsh interface portproxy show v4tov4

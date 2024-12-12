@@ -117,7 +117,7 @@ for( $i = 0; $i -lt $ports.length; $i++ ){
 
 Another solution to making WSL2 servers accessible from your local network is to create a [.wslconfig file](https://learn.microsoft.com/en-us/windows/wsl/wsl-config#wslconfig) and set `networkingMode=mirrored`.
 
-This mode replaces the defaulty NAT setting by having all Windows network interfaces *mirrored* onto the Linux distributions in WSL2. Network services between Windows and WSL2 can now be accessed seamlessly without setting up port forwarding.
+This mode replaces the default NAT setting by having all Windows network interfaces *mirrored* onto the Linux distributions in WSL2. Network services between Windows and WSL2 can now be accessed seamlessly without setting up port forwarding.
 
 However, I set up port forwarding so I could familiarize myself with the concept. Through either port forwarding or using mirrored mode, my self-hosted services in WSL2 are made available to my local network.
 

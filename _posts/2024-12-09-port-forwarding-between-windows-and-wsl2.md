@@ -133,6 +133,3 @@ However, I set up port forwarding so I could familiarize myself with the concept
 * [jwstanley - Port Forwarding WSL2 to Your LAN](https://jwstanly.com/blog/article/Port+Forwarding+WSL+2+to+Your+LAN/)
 * [YouTube - How does mirrored mode work in WSL?](https://www.youtube.com/watch?v=bvW_2rXCOQw&ab_channel=MicrosoftDeveloper)
 * [YouTube - Advanced setting configuration in WSL](https://www.youtube.com/watch?v=dKBU5gWnBvc&ab_channel=WolfDynamicsWorld-WDW)
-
-## Additional Considerations
-* [Editing wsl2config networking to be in mirrored mode](https://learn.microsoft.com/en-us/windows/wsl/wsl-config#main-wsl-settings)

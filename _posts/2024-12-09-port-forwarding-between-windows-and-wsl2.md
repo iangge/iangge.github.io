@@ -2,7 +2,7 @@
 title: 'Port forwarding Between Windows and WSL2'
 date: 2024-12-09 21:33:18
 categories: [Technology, Networking]
-tags: [networking, wsl2] 
+tags: [networking, wsl2]
 ---
 
 ## Background
@@ -74,7 +74,8 @@ Firewall rules are another consideration to take into account as Windows firewal
 
 Luckily, github user edwindijas shared a Powershell script that automates updating the port forwarding rules and the firewall rules. ([Source](https://github.com/microsoft/WSL/issues/4150#issuecomment-504209723))
 
-```Powershell
+``` powershell
+
 $remoteport = bash.exe -c "ifconfig eth0 | grep 'inet '"
 $found = $remoteport -match '\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}';
 
@@ -90,12 +91,10 @@ if( $found ){
 #All the ports you want to forward separated by coma
 $ports=@(80,443,10000,3000,5000);
 
-
 #[Static ip]
 #You can change the addr to your ip config to listen to a specific address
 $addr='0.0.0.0';
 $ports_a = $ports -join ",";
-
 
 #Remove Firewall Exception Rules
 iex "Remove-NetFireWallRule -DisplayName 'WSL 2 Firewall Unlock' ";
@@ -110,6 +109,7 @@ for( $i = 0; $i -lt $ports.length; $i++ ){
   iex "netsh interface portproxy add v4tov4 listenport=$port listenaddress=$addr connectport=$port connectaddress=$remoteport";
 }
 ```
+
 ## Alternative Solution - Mirrored Mode
 
 Another solution to making WSL2 servers accessible from your local network is to create a [.wslconfig file](https://learn.microsoft.com/en-us/windows/wsl/wsl-config#wslconfig) and set `networkingMode=mirrored`.

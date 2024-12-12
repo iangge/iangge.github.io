@@ -2,7 +2,7 @@
 title: 'Port forwarding Between Windows and WSL2'
 date: 2024-12-09 21:33:18
 categories: [Technology, Networking]
-tags: [networking, wsl2]
+tags: [networking, wsl2, powershell]
 ---
 
 ## Background
@@ -119,7 +119,7 @@ Another solution to making WSL2 servers accessible from your local network is to
 
 This mode replaces the default NAT setting by having all Windows network interfaces *mirrored* onto the Linux distributions in WSL2. Network services between Windows and WSL2 can now be accessed seamlessly without setting up port forwarding.
 
-However, I set up port forwarding so I could familiarize myself with the concept. Through either port forwarding or using mirrored mode, my self-hosted services in WSL2 are made available to my local network.
+Although using mirrored mode makes the networking more streamlined, I found it helpful to set up port forwarding first to better familiarize myself with the concept. Through either port forwarding or using mirrored mode, my self-hosted Docker services in WSL2 are made available through my local network.
 
 ## Glossary
 * **WSL2** - Windows Subsystem for Linux 2, a tool that allows Windows users to "run Linux distributions as isolated containers inside a lightweight virtual machine" ([Microsoft Learn](https://learn.microsoft.com/en-us/windows/wsl/about))

@@ -6,6 +6,8 @@ source "https://rubygems.org"
 gem 'csv', '~> 3.3.0'
 gem 'logger', '~> 1.6'
 gem 'base64'
+gem 'jekyll-compose'
+gem "webrick", "~> 1.8"
 
 gem "jekyll-theme-chirpy", "~> 7.1", ">= 7.1.1"
 

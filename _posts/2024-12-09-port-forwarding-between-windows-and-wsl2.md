@@ -67,7 +67,9 @@ I created a diagram to illustrate the points above so we can visualize how the p
 
 ### Diagram
 
-![WSL2-Port-Forwarding-Diagram.png](https://i.postimg.cc/Znf8Dkzr/WSL2-Port-Forwarding-Diagram.png)
+![WSL2-Port-Forwarding-drawio.png](https://i.postimg.cc/rmncVXbn/WSL2-Port-Forwarding-drawio.png)
+
+Update: I edited the diagram to be less vague and to represent the infrastructure by having the WSL2 instance inside of the Windows PC. Tool used: [Draw.io](https://app.diagrams.net/?splash=0&libs=aws4)
 
 ## Automating WSL2 Firewall Rules and Port Forwarding
 

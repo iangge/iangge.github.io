@@ -121,6 +121,9 @@ Another solution to making WSL2 servers accessible from your local network is to
 
 This mode replaces the default NAT setting by having all Windows network interfaces *mirrored* onto the Linux distributions in WSL2. Network services between Windows and WSL2 can now be accessed seamlessly without setting up port forwarding.
 
+> Warning: `mirrored` networking mode in WSL2 is an experimental setting that may have bugs and limitations
+{: .prompt-warning }
+
 Although using mirrored mode makes the networking more streamlined, I found it helpful to set up port forwarding first to better familiarize myself with the concept. Through either port forwarding or using mirrored mode, my self-hosted Docker services in WSL2 are made available through my local network.
 
 ## Glossary

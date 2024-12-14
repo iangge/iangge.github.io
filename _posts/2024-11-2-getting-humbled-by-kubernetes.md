@@ -5,7 +5,7 @@ categories: [Technology, Learning]
 tags: [kubernetes, mistakes]     # TAG names should always be lowercase
 ---
 
-Recently, I tried learning Kubernetes. In a [previous post]({% post_url iangge.github.io/_posts/2024-10-28-kubernetes-concepts %}), I took notes on concepts I should have been familiar with before starting Kubernetes up. I thought I had enough awareness of topics like networking, yaml files, and linux, but they proved to be too challenging for me. 
+Recently, I tried learning Kubernetes. In a [previous post]({% post_url 2024-10-28-kubernetes-concepts %}), I took notes on concepts I should have been familiar with before starting Kubernetes up. I thought I had enough awareness of topics like networking, yaml files, and linux, but they proved to be too challenging for me. 
 
 I thought I could just dive in, so I tried spinning up a cluster through Google Kubernetes Engine (GKE). Even following the tutorials on GKE, I was not entirely sure what I was doing. When I tried setting up a basic web server without the tutorials and exposed my nodes, I clicked the IP address, but the web page was not loading, meaning I definitely configured something incorrectly. 
 

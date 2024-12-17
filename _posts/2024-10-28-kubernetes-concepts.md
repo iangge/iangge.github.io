@@ -9,7 +9,7 @@ First blog post! Thank you to my mentor Slava for encouraging me to start this b
 
 ## Glossary / Concepts
 
-+ **Containerization** - "A standard unit of software that packages up up code and all its dependencies so the application runs quickly and reliabily from one computer to another" (Docker's definition)
++ **container** - "A standard unit of software that packages up up code and all its dependencies so the application runs quickly and reliabily from one computer to another" (Docker's definition)
 + **image** - blueprint for running an app with all of its required dependencies, codes, commands, etc, which are run inside containers. 
 + **Kubernetes** aka K8s - environment to orchestrate/automate deployment, management, scaling, and networking of containers. [Kubernetes Documentation](https://kubernetes.io/docs/home/)
 + **cloud** - Kubernetes is often deployed by companies in the cloud as a managed service, which can get expensive.

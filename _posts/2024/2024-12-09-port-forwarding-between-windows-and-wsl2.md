@@ -2,7 +2,7 @@
 title: 'Port forwarding Between Windows and WSL2'
 date: 2024-12-09 21:33:18
 categories: [Technology, Networking]
-tags: [networking, wsl2, powershell]
+tags: [networking, wsl2, powershell, docker]
 ---
 
 ## Background

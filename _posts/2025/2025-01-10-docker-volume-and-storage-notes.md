@@ -14,6 +14,7 @@ tags: [docker, storage]
 I found the following image below to be helpful for visualizing these 3 types of storage for Docker containers:
 
 ![Docker Image Diagram](https://miro.medium.com/v2/format:webp/0*hN3NgV1e3ZchXg_G)
+
 ([Abbas, 2024](https://medium.com/@AbbasPlusPlus/docker-volumes-explained-adc5bf89d5df)).
 
 ## Pantry Analogy for Docker Volumes

@@ -14,8 +14,41 @@ I've been playing this game called Maplestory for a while, and the [current upda
 
 Another solution I saw was from a user on the Maplestory forums that recommended going into the Windows Registry Editor to change a value for the game's screen resolution configuration. My issue was different from this one since it was fixed by creating the new Administrator user, but this Registry Editor fix has worked for other people. 
 
-Currently, I'm participating in a [Cybersecurity bootcamp with my school](https://cysec.team/) to prepare for the CCDC (Collegiate Cyber Defense Competition) tryouts. One of the lesson topics was securing Windows, which involved using some of the same tools and concepts that Maplestory players used to fix the game's launch issues. I thought it was cool running into these solutions in the wild when trying to get Maplestory work on my own PC, so I'm writing about them here.
+Currently, I'm participating in a [cybersecurity bootcamp with my school](https://cysec.team/) to prepare for the CCDC (Collegiate Cyber Defense Competition) tryouts. One of the lesson topics was securing Windows, which involved using some of the same tools and concepts that Maplestory players used to fix the game's launch issues. I thought it was cool running into these solutions in the wild when trying to get Maplestory work on my own PC, so I'm writing about them here.
 
 ## Running Maplestory as a new Administrator user
 
 {% include embed/youtube.html id='4C_B_xbMmRA' %}
+
+``` powershell
+# Manually adds the user Maple2 with the password `1`
+net user Maple2 1 /add
+
+# Assigns Maple2 to the Administrators group
+net localgroup Administrators Maple2 /add
+```
+
+Using `Shift` + `Right Click` to run Steam or Nexon Launcher as a different user, `Maple2`, launches the app from a brand new Windows profile. This latest Maplestory update may have failed to launch due to corrupted user-specific files or configurations from the main Windows profile. Launching the game as `Maple2` resolved my issue of not being able to start the game.
+
+## Registry Editor for changing Maplestory's screen resolution configuration
+
+In another issue, [a user on the Maplestory forums](https://forums.maplestory.nexon.net/discussion/17393/after-alt-enter) mentioned the game tabbing out whenever they used `Alt` + `Enter` to toggle between fullscreen and windowed mode, causing them to be unable to enter the game. 
+
+User F1NS1N offered the following solution:
+
+> 1. Type regedit.exe to Window's search and run it as adminstrator.
+> 2. Hit Ctrl + F and enter soScreenMode to search box and hit enter. It should bring you > the view you are in something\Wizet\MapleStory -folder.
+> 3. Now use right-click and select Edit and change value of the soScreenMode. I think it is usually between 0-3, I would try 3 first because it should put it as windowed mode.
+
+Below is a screenshot of how it looks on Windows Registry Editor:
+
+![soScreenMode Regeditor for Maplestory](https://i.postimg.cc/KjW1n2zB/so-Screen-Mode-Regeditor-Maplestory.png)
+
+## Closing Thoughts
+
+These solutions are fairly simple, but they do require users changing advanced settings in Windows. It definitely goes to show how having some IT knowledge goes a long way when fixing any computer issues, even as a more casual player of games like Maplestory.
+
+## Documentation
+* [`net user` - Microsoft Learn](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/net-user)
+* [`net localgroup` - Microsoft Learn](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/cc725622(v=ws.11))
+* [Windows registry information for advanced users](https://learn.microsoft.com/en-us/troubleshoot/windows-server/performance/windows-registry-advanced-users)

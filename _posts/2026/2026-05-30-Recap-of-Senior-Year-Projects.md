@@ -1,6 +1,6 @@
 ---
 title: 'Recap of Senior Year Projects'
-date: 2026-04-30 11:09:06
+date: 2026-05-30 11:09:06
 categories: [Personal, Blogging]
 tags: [education, presentations, college]
 image:

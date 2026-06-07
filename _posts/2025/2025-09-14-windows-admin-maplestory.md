@@ -1,7 +1,7 @@
 ---
 title: 'Windows Admin Fixes to Maplestory Launching Issues'
 date: 2025-09-14 20:50:20
-categories: [Technology, Troubleshooting]
+categories: [Technology, 'System Administration']
 tags: [windows, powershell, regedit, maplestory]
 image:
   path: 'https://g.nexonstatic.com/maplestory/micro-site/static/landing/share_fb.jpg'

@@ -1,7 +1,7 @@
 ---
 title: 'Recap of Senior Year Projects'
 date: 2026-05-30 11:09:06
-categories: [Personal, Blogging]
+categories: [Personal, Reflection]
 tags: [education, presentations, college]
 image:
   path: 'images/CPP-Graduation-Ceremony.jpg'

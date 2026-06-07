@@ -2,7 +2,7 @@
 title: 'Mermaid Diagram for Jekyll Layout Inheritance' 
 date: 2025-03-02 18:41:36
 mermaid: true
-categories: [Technology, Jekyll]
+categories: [Technology, Web]
 tags: [mermaid, oop, visualization]
 image:
   path: 'https://i.postimg.cc/bwckJxC1/Mermaid-Flowchart-for-Jekyll-Theme-1.png'

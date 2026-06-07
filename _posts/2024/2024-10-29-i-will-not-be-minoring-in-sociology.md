@@ -1,7 +1,7 @@
 ---
 title: I will not be minoring in Sociology
 date: 2024-10-29
-categories: [Personal, Blogging]
+categories: [Personal, Reflection]
 tags: [college, education]   
 ---
 

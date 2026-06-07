@@ -1,8 +1,8 @@
 ---
 title: 'Docker Volume and Storage Notes' 
 date: 2025-01-10 12:07:10
-categories: [Technology, Notes]
-tags: [docker, storage]
+categories: [Technology, Infrastructure]
+tags: [docker, storage, notes]
 ---
 
 ## Docker Volumes

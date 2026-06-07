@@ -1,8 +1,8 @@
 ---
 title: Getting Humbled by Kubernetes
-date: 2024-11-2 # Enter date here and in file name
-categories: [Technology, Learning]
-tags: [kubernetes, mistakes]     # TAG names should always be lowercase
+date: 2024-11-2
+categories: [Technology, Infrastructure]
+tags: [kubernetes, mistakes]    
 ---
 
 Recently, I tried learning Kubernetes. In a [previous post]({% post_url 2024/2024-10-28-kubernetes-concepts %}), I took notes on concepts I should have been familiar with before starting Kubernetes up. I thought I had enough awareness of topics like networking, yaml files, and linux, but they proved to be too challenging for me. 

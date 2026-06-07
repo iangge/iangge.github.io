@@ -1,7 +1,7 @@
 ---
 title: Setting up a Basic Nginx Web Server on Windows
 date: 2024-11-3 # Enter date here and in file name
-categories: [Technology, Tutorial]
+categories: [Technology, Web]
 tags: [nginx, windows]    # TAG names should always be lowercase
 ---
 

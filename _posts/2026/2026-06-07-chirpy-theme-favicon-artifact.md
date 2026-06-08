@@ -34,7 +34,7 @@ Custom butterfly favicon shows up locally but not when deploying to GitHub pages
 
 ## Diagnosis
 
-Downloading the **`artifact.tar`** file revealed that not every resolution had a corresponding custom favicon file in the `assets>img>favicons directory`. The `favicon-96x96.png` and `favicon.svg` files still displayed the default ant favicon because I was missing butterfly favicon files for those dimensions.
+Downloading the **`artifact.tar`** file revealed that not every resolution had a corresponding custom favicon file in the `assets>img>favicons` directory. The `favicon-96x96.png` and `favicon.svg` files still displayed the default ant favicon because I was missing butterfly favicon files for those dimensions.
 
 The butterfly favicon showed up only on mobile but not desktop because I had the files for mobile’s dimensions but not the `96x96` or `favicon.svg` files for desktop.  
 

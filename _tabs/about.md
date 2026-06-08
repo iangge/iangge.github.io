@@ -10,7 +10,7 @@ Hello, my name is Ian Eusebio. I am a Computer Technician and recent Computer In
 
 Growing up, my family often asked me for help with their computer issues. Troubleshooting those problems and sharing knowledge are my favorite parts of IT, which motivated me to study Computer Information Systems and Cybersecurity. Technology has always been a meaningful way for me to help others, and I want to strengthen those skills here.
 
-Outside of work, you can catch me swimming at the pool or visiting a museum! I also enjoy video editing, drawing, gaming, and doing community service in my free time. 
+Outside of work, you can catch me swimming at the pool, taking care of my tamagotchis, or visiting a museum! I also enjoy video editing, drawing, gaming, and doing community service in my free time. 
 
 Thanks for checking out my blog. Feel free to connect with me:
 

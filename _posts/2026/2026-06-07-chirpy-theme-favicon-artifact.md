@@ -2,9 +2,9 @@
 title: 'Finding Chirpy theme favicon discrepancies with the artifact.tar file' 
 date: 2026-06-07 20:37:04
 categories: [Technology, Web]
-tags: [jekyll, chirpy, favicon, butterfly, github]
+tags: [jekyll, chirpy, favicon, butterfly, github, troubleshooting]
 image:
-  path: 'https://github.com/iangge/iangge.github.io/blob/main/assets/img/favicons/android-chrome-512x512.png?raw=true'
+  path: 'assets/img/favicons/android-chrome-512x512.png'
   alt: "Digging into the artifact.tar file to find out why this butterfly favicon wasn't showing up."
 ---
 
@@ -12,7 +12,7 @@ image:
 
 Fun Fact: The favicon of this blog (aka the browser tab icon) is a monarch butterfly because I used to be obsessed with butterflies as a kid. My parents would buy me so many books on bugs and insects, and I always made sure to catch all the bug types in Pokemon. I used to think I’d grow up to be some type of entomologist.
 
-![Ash from Pokemon and his Butterfree](https://archives.bulbagarden.net/media/upload/2/25/Ash_Butterfree_Goodbye_BW130.png?20130623063628)
+![Ash from Pokemon and his Butterfree](https://i.postimg.cc/cCKFqBQB/Ash-Butterfree-Goodbye-BW130.png)
 
 However, reality set in and I realized I’m more of a computer guy than a biologist. The barrier to entry for IT is conveniently not as high as it is for entomological research. That being said, I’m still fascinated by butterflies.
 
@@ -24,7 +24,7 @@ It’s crazy how caterpillars make a cocoon, get turned into soup when they meta
 
 In less exciting news, I was stuck on figuring out how to have my monarch butterfly favicon show up on this blog. It would display when testing the blog locally, but the default Chirpy theme favicon always replaced it when I would  publicly deploy the site to GitHub Pages. Don’t get me wrong, the Chirpy ant favicon is neat. I just wanted my butterfly one to show up. To make matters worse, the butterfly favicon would deploy on mobile but not on desktop.
 
-![Default Chirpy favicon that shows an ant holding a watermelon](https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/assets/img/favicons/web-app-manifest-192x192.png?raw=true)
+![Default Chirpy favicon that shows an ant holding a watermelon](https://chirpy-img.netlify.app/commons/avatar.jpg)
 
 The default ant one was the favicon for about half a year because I just couldn’t figure it out.
 

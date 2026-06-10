@@ -1,8 +1,8 @@
 ---
 title: 'Troubleshooting Makefile Missing Separator Error in VSC'
 date: 2024-11-15 00:00:00
-categories: [Technology, Troubleshooting]
-tags: [makefile, vsc]
+categories: [Technology, Linux]
+tags: [makefile, vsc, linux, troubleshooting]
 layout: post
 ---
 

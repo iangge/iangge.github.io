@@ -5,12 +5,12 @@ categories: [Personal, Reflection]
 tags: [education, presentations, college]
 image:
   path: 'images/CPP-Graduation-Ceremony.jpg'
-  alt: "I low key have a bachelor's degree."
+  alt: "I low key have a bachelor's degree (with hi)."
 ---
 
 Hello blog, it’s been a while since I’ve posted, but I promise I have been active. This past school year has been my senior year at Cal Poly Pomona, so I’ve been trying to gain as much experience as I can. Earlier this month, I received my Bachelor's of Science in Computer Information Systems from Cal Poly Pomona as well as my Network+ certification.
 
-![My Network+ exam results](https://media.licdn.com/dms/image/v2/D4E22AQEiVUuNUQc1aQ/feedshare-shrink_800/B4EZ56GDEpH8Ag-/0/1780164866789?e=1781740800&v=beta&t=fv5E7oWa92APlH8t-PnpMEkJJZroA6biDfdzF93Y6bw)
+[![My Network+ exam results](https://media.licdn.com/dms/image/v2/D4E22AQEiVUuNUQc1aQ/feedshare-shrink_800/B4EZ56GDEpH8Ag-/0/1780164866789?e=1781740800&v=beta&t=fv5E7oWa92APlH8t-PnpMEkJJZroA6biDfdzF93Y6bw)](https://www.linkedin.com/posts/ian-gabriel-eusebio_got-my-network-a-few-days-ago-and-replaced-share-7466552625791094784-v78l/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADvLfOYBNttps5IPBhHNJy5t6TFIyt7WVVs)
 
 There were lots of great projects I had the opportunity to be a part of, so I thought I’d make a list to compile them all.
 
@@ -28,7 +28,7 @@ This environment is available to download [here](https://archive.wrccdc.org/imag
 
 ## 2. LEAP - Project Coordinator Fellow (Fall-Spring)
 
-[![Meet the Fellows campaign where I talked about a quote that I live by](https://media.licdn.com/dms/image/v2/D5610AQGW3wSS3MMa2Q/image-shrink_800/B56ZnLtD_AG4Ac-/0/1760059212366?e=1780819200&v=beta&t=ZT8elKOuK__IKrmGrf_VgVRY1frTyeZbQJ5iJpt8yjI)](https://www.linkedin.com/feed/update/urn:li:activity:7387920486862798848/)
+[![Meet the Fellows campaign where I talked about a quote that I live by](https://i.postimg.cc/t4SQH26D/Jose-Rizal-quote.png)](https://www.linkedin.com/feed/update/urn:li:activity:7387920486862798848/)
 
 [LEAP](https://www.linkedin.com/posts/leapuncaptalent_meet-the-20252026-leap-emerge-fellowship-activity-7369169882627702785-jKqd?utm_source=share&utm_medium=member_desktop&rcm=ACoAADvLfOYBNttps5IPBhHNJy5t6TFIyt7WVVs) (Leadership Education for Asian Pacifics) is another program I was part of. While it was not an outright technical fellowship, I found their career development sessions valuable. We were also assigned a community impact project to complete as part of the program. Our project was a video interview series that focused on addressing the bamboo ceiling, which refers to the systemic barriers that Asian American Pacific Islander professionals face when advancing in their careers. I served as one of the Project Coordinator Fellows where I organized communications between the different teams of the project, such as the interviewers, finance team, and the LEAP staff members to ensure the project stayed on track. 
 
@@ -36,7 +36,7 @@ Right now we’re wrapping up the project, but I’ll update this post with the 
  
 ## 3. SWIFT Competitions Officer (Fall-Spring)
 
-![Flyer for King of the Hill, one of SWIFT's cyber competitions](https://scontent-lax7-1.cdninstagram.com/v/t51.82787-15/582730503_18540838156048045_4018715225926599883_n.jpg?stp=dst-jpg_e35_p640x640_sh2.08_tt6&_nc_cat=101&ig_cache_key=Mzc2OTQ2MzcwNzE0MzMzMTk0NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTM1MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=goOKU0L_F2wQ7kNvwEuaOs8&_nc_oc=AdoyDOO-1NcijmZyvH2w1szcXx83GJtP606V1HRDixKS9YNSYZbFumnPEN6jfHfsDb4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-lax7-1.cdninstagram.com&_nc_gid=UrBkQBv-AoerYY9J6Yc2ow&_nc_ss=7a22e&oh=00_Af9v5nQ-lhumQ-90uj3CccuPwlgNzLBKu64ht-tom6Ut2g&oe=6A216E73)
+[![Flyer for King of the Hill, one of SWIFT's cyber competitions](https://i.postimg.cc/Kz70m8Vb/KOTH-recap.png)](https://www.instagram.com/p/DRvd8zQD6iW/)
 
 Outside of that CCDC invitational, I also helped build competitions for SWIFT (Students With an Interest In the Future of Technology), one of the cybersecurity clubs at Cal Poly Pomona. [My last post was on SCARE in October]({% link _posts/2025/2025-10-30-SCARE-2025-Windows.md %}), a Halloween themed pen-testing Capture-The-Flag competition!
 
@@ -44,7 +44,7 @@ Similar to CCDC, I mainly developed the Windows boxes, so I had to intentionally
 
 ## 4. STORM CyberAI Research Symposium (January)
 
-![Me presenting at the STORM CyberAI Research Symposium](https://media.licdn.com/dms/image/v2/D5622AQE78AarSynnMw/feedshare-shrink_800/B56Zwk9ekeHIAk-/0/1770146622184?e=1781740800&v=beta&t=uAQb6e6jd1Eh_C-UB1KiwQsNA1vMqF2XZhuLxWjQmGI)
+[![Me presenting at the STORM CyberAI Research Symposium](https://i.postimg.cc/1zwHKzyw/STORM-Cyber-Competition-Overview-Presentation.png)](https://www.linkedin.com/posts/ian-gabriel-eusebio_so-honored-to-have-presented-on-swift-and-ugcPost-7424533064229371905-HJ0q/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADvLfOYBNttps5IPBhHNJy5t6TFIyt7WVVs)
 
 If you’re curious about cyber competitions, I made a presentation with an overview of them for a conference. As a member of the STORM (Security Technology Operations Research Monitoring) cybersecurity career development program at Coastline College, I had the opportunity to present at their research symposium. 
 
@@ -56,7 +56,7 @@ Learning new concepts in cybersecurity can be intimidating, so I try my best to 
 
 ## 5. SCALE (March)
 
-![Attending the SCALE conference with some people from SWIFT](https://media.licdn.com/dms/image/v2/D5622AQG7ZOtX4juacw/feedshare-shrink_800/B56Z0Zyc0IJMAc-/0/1774254149163?e=1781740800&v=beta&t=ci0JFbqu2WTLtLnHQqgJtF-Mpem0uMAtzISSr5yk86Q)
+[![Attending the SCALE conference with some people from SWIFT](https://i.postimg.cc/90nZ23W2/SCALE-2026-selfie.jpg)](https://www.linkedin.com/feed/update/urn:li:activity:7441937139426308097/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADvLfOYBNttps5IPBhHNJy5t6TFIyt7WVVs)
 
 Speaking of education, I was able to attend SCALE (Southern California Linux Expo) a few months ago with some of my CCDC teammates and their mentees. My favorite talk was from a professor who spoke about his challenges and successes with integrating open source technology in his curriculum.
 
@@ -66,7 +66,7 @@ Something fun he brought up was how some of his students built databases for thi
 
 ## 6. Insecure Deserialization in Ren’Py (April)
 
-![Presenting at the game dev club meeting about insecure deserialization in Ren'Py](https://i.postimg.cc/fySRtRGC/ID-Ren-Py-Presentation.png)
+[![Presenting at the game dev club meeting about insecure deserialization in Ren'Py](https://i.postimg.cc/fySRtRGC/ID-Ren-Py-Presentation.png)](https://www.linkedin.com/posts/ian-gabriel-eusebio_insecure-deserialization-in-renpy-games-ugcPost-7449258397834838016-yWYa/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADvLfOYBNttps5IPBhHNJy5t6TFIyt7WVVs)
 
 In addition to being a Competitions Officer with SWIFT, I was also assigned a SWintern (SWIFT intern) project. SWinterns assist the executive board and get to present on a cybersecurity topic of their choice. I chose to present on insecure deserialization in Ren’Py. 
 
@@ -86,7 +86,7 @@ My last project with SWIFT was tabling at our school’s AI Fair. This project i
 
 Anomaly detection is a subfield of AI and machine learning that involves finding any data that is “out of the ordinary”. For example, anomaly detection is used in finance to flag possibly fraudulent transactions. In the context of this project, the repo uses this concept to find suspicious network traffic, like unusual port usage or large data transfers. We made a flyer below to explain and visualize how the 3 ML algorithms Isolation Forest, Local Outlier Factor, and One-Class SVM are used to detect anomalies.
 
-![SWIFT AI Fair flyer on the network anomaly detector](https://media.licdn.com/dms/image/v2/D5622AQG1-prx0oZt6A/feedshare-shrink_800/B56Z2YUmdzH4Ac-/0/1776377030798?e=1781740800&v=beta&t=VZHEFuEFtg8xfLFEwSzfhQA75AIr_tTLcZohFSn3XlA)
+[![SWIFT AI Fair flyer on the network anomaly detector](https://i.postimg.cc/BncbcWdQ/Network-Anomaly-Detector.jpg)](https://www.linkedin.com/posts/ian-gabriel-eusebio_had-a-great-time-tabling-with-alexander-eng-ugcPost-7450665290754883584-RS-H/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADvLfOYBNttps5IPBhHNJy5t6TFIyt7WVVs)
 
 In collaboration with my fellow Competitions Officer Alex, we forked the repository to include our custom network traffic CSV file for the ML algorithms to analyze. View the forked repository [here](https://github.com/iangge/network-anomaly-detector).
  

@@ -5,12 +5,10 @@ categories: [Personal, Reflection]
 tags: [education, presentations, college]
 image:
   path: 'images/CPP-Graduation-Ceremony.jpg'
-  alt: "I low key have a bachelor's degree (with hi)."
+  alt: "I low key have a bachelor's degree."
 ---
 
 Hello blog, it’s been a while since I’ve posted, but I promise I have been active. This past school year has been my senior year at Cal Poly Pomona, so I’ve been trying to gain as much experience as I can. Earlier this month, I received my Bachelor's of Science in Computer Information Systems from Cal Poly Pomona as well as my Network+ certification.
-
-[![My Network+ exam results](https://media.licdn.com/dms/image/v2/D4E22AQEiVUuNUQc1aQ/feedshare-shrink_800/B4EZ56GDEpH8Ag-/0/1780164866789?e=1781740800&v=beta&t=fv5E7oWa92APlH8t-PnpMEkJJZroA6biDfdzF93Y6bw)](https://www.linkedin.com/posts/ian-gabriel-eusebio_got-my-network-a-few-days-ago-and-replaced-share-7466552625791094784-v78l/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADvLfOYBNttps5IPBhHNJy5t6TFIyt7WVVs)
 
 There were lots of great projects I had the opportunity to be a part of, so I thought I’d make a list to compile them all.
 
@@ -32,7 +30,7 @@ This environment is available to download [here](https://archive.wrccdc.org/imag
 
 [LEAP](https://www.linkedin.com/posts/leapuncaptalent_meet-the-20252026-leap-emerge-fellowship-activity-7369169882627702785-jKqd?utm_source=share&utm_medium=member_desktop&rcm=ACoAADvLfOYBNttps5IPBhHNJy5t6TFIyt7WVVs) (Leadership Education for Asian Pacifics) is another program I was part of. While it was not an outright technical fellowship, I found their career development sessions valuable. We were also assigned a community impact project to complete as part of the program. Our project was a video interview series that focused on addressing the bamboo ceiling, which refers to the systemic barriers that Asian American Pacific Islander professionals face when advancing in their careers. I served as one of the Project Coordinator Fellows where I organized communications between the different teams of the project, such as the interviewers, finance team, and the LEAP staff members to ensure the project stayed on track. 
 
-Right now we’re wrapping up the project, but I’ll update this post with the final results in June!
+* [LEAP Emerge 2025-2026 Community Impact Project](https://ban-brian.github.io/LEAP/)
  
 ## 3. SWIFT Competitions Officer (Fall-Spring)
 
@@ -70,7 +68,7 @@ Something fun he brought up was how some of his students built databases for thi
 
 In addition to being a Competitions Officer with SWIFT, I was also assigned a SWintern (SWIFT intern) project. SWinterns assist the executive board and get to present on a cybersecurity topic of their choice. I chose to present on insecure deserialization in Ren’Py. 
 
-Serialization is the process of turning an object into a byte stream to make it easier to store or transmit. Deserialization is the reverse of that process, which turns the byte stream back into the original object. However, insecure deserialization occurs when attackers are able to run arbitrary code to a deserializer ([OWASP entry](https://owasp.org/www-community/vulnerabilities/Insecure_Deserialization)). 
+Serialization is the process of turning an object into a byte stream to make it easier to store or transmit. Deserialization is the reverse of that process, which turns the byte stream back into the original object. However, *insecure deserialization* occurs when attackers are able to run arbitrary code to a deserializer ([OWASP entry](https://owasp.org/www-community/vulnerabilities/Insecure_Deserialization)). 
 
 [Ren’Py](https://www.renpy.org/), a text-based video game engine, uses this process to store its save files through the Python Pickle library. User [swoops on GitHub](https://github.com/swoops/video-game-save-file-trojans) was able to figure out a way to use insecure deserialization to insert trojan viruses that disguised themselves Ren’Py save files. 
 
